@@ -1,7 +1,6 @@
 package tetris;
 
 import edu.princeton.cs.algs4.StdDraw;
-import org.apache.commons.lang3.ObjectUtils;
 import tileengine.TETile;
 import tileengine.TERenderer;
 import tileengine.Tileset;

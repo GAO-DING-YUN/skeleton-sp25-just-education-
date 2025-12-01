@@ -91,7 +91,7 @@ public class World {
 
         for (int i = x; i < x + w; i++) {
             for (int j = y; j < y + h; j++) {
-                world[i][j] = Tileset.TREE;
+                world[i][j] = Tileset.FLOOR;
             }
         }
 
@@ -111,6 +111,14 @@ public class World {
 
     public TETile[][] getWorldGrid() {
         return world;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
     }
 
 }
